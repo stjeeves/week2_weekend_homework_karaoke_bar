@@ -12,11 +12,11 @@ class TestSong < MiniTest::Test
 
   end
 
-  def test_get_name()
+  def test_get_song_name()
     assert_equal("Livin On A Prayer", @song1.name)
   end
 
-  def test_get_artist()
+  def test_get_song_artist()
     assert_equal("Bon Jovi", @song1.artist)
   end
 

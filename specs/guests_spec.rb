@@ -11,6 +11,17 @@ def setup()
   @guest1 = Guest.new("Stephen", 120, "Livin On A Prayer")
 end
 
+def test_get_name()
+  assert_equal("Stephen", @guest1.name)
+end
+
+def test_get_money()
+  assert_equal(120, @guest1.money)
+end
+
+def test_get_favourite_song()
+  assert_equal("Livin On A Prayer", @guest1.favourite_song)
+end
 
 
 
